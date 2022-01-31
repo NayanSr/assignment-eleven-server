@@ -61,6 +61,11 @@ async function run() {
             res.json(result);
         })
 
+        //TEST
+        app.get('/hallo', (req, res) => {
+            res.send('Hallo Testing')
+        })
+
     }
 
     finally {
